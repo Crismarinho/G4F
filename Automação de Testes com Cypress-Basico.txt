@@ -1,0 +1,40 @@
+Título: Automação de Testes com Cypress: Validando o Link "Sign in" (Nível Básico)
+
+Descrição Detalhada:
+
+Objetivo:
+Criar um teste automatizado utilizando o framework Cypress para validar a funcionalidade do link "Sign in" em um sistema web. O teste irá verificar se o usuário é corretamente redirecionado para a página de autenticação e se todos os elementos esperados estão presentes nessa página.
+
+Pré-requisitos:
+Conhecimento básico de HTML e CSS.
+Instalação do Node.js e npm (ou yarn).
+Instalação do Cypress.
+Um projeto web com a página inicial em https://automationtest.shop/index.
+Passo a Passo:
+
+1.Configuração do Projeto Cypress:
+Criar um novo projeto Cypress.
+
+2. Criação do Teste:
+Escrever um teste especificando os seguintes passos:
+Visitar a página inicial.
+Encontrar o elemento com o link "Sign in".
+Clicar no link.
+Verificar se a URL atualizada corresponde à página de autenticação.
+Verificar a presença dos elementos: logotipo, texto "Authentication", texto "Create an account" e texto "Already registered?".
+
+3. Execução do Teste:
+
+Executar o teste no Cypress.
+Analisar os resultados e corrigir quaisquer falhas.
+
+4. Versionamento no Git:
+Adicionar as alterações ao Git.
+Commitar as mudanças com uma mensagem descritiva (e.g., "Adicionado teste para validar o link Sign in").
+Pushar as alterações para o repositório remoto.
+
+Critérios de Aceitação:
+
+O teste deve ser executado com sucesso.
+A cobertura de código deve ser adequada para o teste.
+O código deve ser bem formatado e fácil de entender.
