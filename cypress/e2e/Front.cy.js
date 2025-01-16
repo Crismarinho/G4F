@@ -18,6 +18,5 @@ describe.only('Desafio Automação', () => {
         cy.get('.page-heading').should('contain.text', 'Authentication');
         cy.get('#create-account_form').should('be.visible');
         cy.get('#login_form > .page-subheading').should('contain.text','Already registered?');
-        
-    })
+            })
 });
